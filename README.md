@@ -16,3 +16,5 @@ Download the extension [here](https://addons.mozilla.org/firefox/downloads/file/
 ## Accumulative copyboard
 1. Click the checkbox for accumulative copyboard
 2. Follow the steps above for default or custom tags
+## Reseting
+1. Leave the before and after inputs empty and click custom
