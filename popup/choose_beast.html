@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="choose_beast.css"/>
+  </head>
+
+<body>
+  <div id="popup-content">
+    <div class="button beast">h1</div>
+    <div class="button beast">p</div>
+    <div class="button beast">a</div>
+    <div class="button beast">li</div>
+    <div class="button beast">span</div>
+    <div class="button beast">div</div>
+    <div class="wrapper">
+      <input type="text" id="before" placeholder="before string"></input></br>
+      <input type="text" id="after" placeholder="after string"></input></br>
+      <div class="button reset" before="?" after="?">custom</div>
+    </div>
+    <div class="button beast" id="accum">
+      <input type="checkbox" id="accumulative">
+      Accumulative copyboard
+    </div>
+  </div>
+  <div id="error-content" class="hidden">
+    <p>Can't tag the copy content on this web page.</p><p>Try a different page.</p>
+  </div>
+  <script src="choose_beast.js"></script>
+</body>
+
+</html>

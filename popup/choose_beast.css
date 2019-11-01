@@ -1,0 +1,63 @@
+html, body {
+  width: 97%;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.hidden {
+  display: none;
+}
+
+.button {
+  box-sizing: border-box;
+  margin: 3% auto;
+  padding: 4px;
+  text-align: center;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.beast:hover {
+  background-color: #CFF2F2;
+}
+
+.beast {
+  background-color: #E5F2F2;
+}
+
+.reset {
+  background-color: #FBFBC9;
+}
+
+.reset:hover {
+  background-color: #EAEA9D;
+}
+
+input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 5px;
+  margin: 2.5px 0;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 3px;
+  box-sizing: border-box;
+  background-color: plum;
+  border: 2px solid plum;
+}
+
+#accum {
+  display: flex;
+  white-space: nowrap;
+  padding-right: 20px;
+}
+
+#accumulative {
+  margin-left: -20px;
+}
