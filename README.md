@@ -2,7 +2,7 @@
 A firefox add-on that wraps the content of the tab copyboard between html tags or any custom string and also accumulates copies if accumulative copyboard is on.
 
 # Instalation
-Download the extension [here](https://addons.mozilla.org/firefox/downloads/file/3437046/clipboard_tagger-1.12-fx.xpi?src=devhub)
+Open the files clipboard_tagger-1.0-fx included in the root directory in your firefox browser to install the addon.
 
 # How to use
 ## Default tags
