@@ -4,7 +4,7 @@
   "manifest_version": 2,
   "name": "Clipboard tagger",
   "version": "1.0",
-  "homepage_url": "",
+  "homepage_url": "https://github.com/uryelah/Clipboard-tagger",
   "icons": {
     "48": "icons/beasts-48.png"
   },
