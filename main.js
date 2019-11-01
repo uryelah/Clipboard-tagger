@@ -54,16 +54,16 @@ document.addEventListener('copy', (event) => {
 
     let accum = window.localStorage.getItem('copyboard');
     if (stateChange[0] && stateChange[1]) {
-        window.localStorage.setItem('copyboard', accum + before + selection.toString() + after);
+        window.localStorage.setItem('copyboard', accum + before + selection.toString() + after + "\n");
     } else if (stateChange[0] && !stateChange[1]) {
-        window.localStorage.setItem('copyboard', accum + before + selection.toString() + after);
+        window.localStorage.setItem('copyboard', accum + before + selection.toString() + after + "\n");
     } else if (!stateChange[0]) {
         window.localStorage.setItem('copyboard', "");
     }
     accum = window.localStorage.getItem('copyboard');
 
     if (acc === "false") {
-        event.clipboardData.setData('text/plain', before + selection.toString() + after);
+        event.clipboardData.setData('text/plain', before + selection.toString() + after + "\n");
     } else if (acc === "true") {
         event.clipboardData.setData('text/plain', accum);
     }
