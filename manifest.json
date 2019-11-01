@@ -3,7 +3,7 @@
   "description": "This extension adds common html tags to item copied and also accumulates the copied items in the clipboard. This extension works only in one tab at the tab, you need to set it for each tab.",
   "manifest_version": 2,
   "name": "Clipboard tagger",
-  "version": "1.11",
+  "version": "1.12",
   "homepage_url": "https://github.com/uryelah/Clipboard-tagger",
   "icons": {
     "48": "icons/beasts-48.png"
